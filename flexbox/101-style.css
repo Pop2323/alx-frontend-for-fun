@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.box {
+    color: white;
+}
+
+.box1 {
+    background: #21cc6c;
+    font-size: 2rem;
+    flex-basis: 5%;
+}
+
+.box2 {
+    background: #2d98de;
+    font-size: 7rem;
+    flex-basis: 15%;
+}
+
+.box3 {
+    background: #344a61;
+    font-size: 12rem;
+    flex-basis: 30%
+}
+
+.box4 {
+    background: #9d55b9;
+    font-size: 7rem;
+    flex-basis: 15%;
+}
+
+.box5 {
+    background: #e47f0b;
+    font-size: 2rem;
+    flex-basis: 5%
+}
