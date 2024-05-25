@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    position: relative;
+    margin: 10px 4px;
+}
+a {
+    color: #92142c;
+    text-decoration: none;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    text-decoration: none;
+    background-color: #92142c;
+    width: 0;
+    height: 2px;
+	transform: translateY(2.3ex);
+	transform-origin: left;
+    transition: .5s ease-out;
+}
+
+a:hover::before {
+	width: 9.5ch;
+}
+

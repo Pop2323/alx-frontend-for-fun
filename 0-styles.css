@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+}
+
+li {
+    display: grid;
+    grid-template-rows: 1fr 2.5fr;
+    place-items: center;
+    border: 2px solid #8d8d8d;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    background: #f7f7f7;
+}
+
+span {
+    width: 220px;
+    height: 100%;
+    padding: 50px;
+}
+
+span.i-html {
+    background: url(./0-sprite.png) no-repeat -30px -90px;;
+}
+
+span.i-css {
+    background: url(./0-sprite.png) no-repeat -320px -90px;
+}
+
+span.i-js {
+    background: url(./0-sprite.png) no-repeat -610px -90px;
+}
