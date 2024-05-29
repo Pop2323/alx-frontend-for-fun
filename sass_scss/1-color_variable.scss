@@ -1,0 +1,11 @@
+// Desfine The Sass Variable For Color
+$primary_color: #3D3D3D;
+
+// Apply the text color to the body and p tags
+body {
+    color: $primary_color;
+}
+
+p {
+    color: $primary_color;
+}

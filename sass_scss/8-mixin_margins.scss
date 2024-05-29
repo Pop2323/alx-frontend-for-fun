@@ -1,0 +1,12 @@
+@mixin mRL($property) {
+    margin-left: $property;
+    margin-right: $property;
+}
+
+body {
+    @include mRL((10px))
+}
+
+div {
+    @include mRL((15px))
+}
