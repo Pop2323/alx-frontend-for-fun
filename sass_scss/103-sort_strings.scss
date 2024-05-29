@@ -1,5 +1,3 @@
-@import '103-sort_list.scss';
+$sorted_list: sort($list_to_sort);
 
-@each $i in $list_to_sort {
-    @debug #{$i};
-}
+@debug $sorted_list;
